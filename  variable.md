@@ -17,14 +17,14 @@ var t,f bool = true, false
 ```
 
 - `()`でまとめる
-  
+
 ```
 var (
     var i int = 1
     var f64 float64 = 1.2
-	var s string = "test"
-	var t bool = true
-	var f bool = false
+    var s string = "test"
+    var t bool = true
+    var f bool = false
 )
 ```
 
@@ -35,10 +35,10 @@ import "fmt"
 
 var (
     var i int
-    var f64 float64
-	var s string
-	var t bool
-	var f bool
+    var f64 float6
+    var s strin
+    var t bool
+    var f bool
     fmt.Println(i, f64, s, t, f)
 )
 ```
@@ -55,12 +55,12 @@ var (
 import "fmt"
 
 func main() {
-	xi := 1
-	xf64 := 1.2
-	xs := "test"
-	xt, xf := true, false
+    xi := 1
+    xf64 := 1.2
+    xs := "test"
+    xt, xf := true, false
 
-	fmt.Println(xi, xf64, xs, xt, xf)
+    fmt.Println(xi, xf64, xs, xt, xf)
 }
 ```
 
@@ -77,19 +77,19 @@ import "fmt"
 var (
     i int
     f64 float64
-	s string
-	t bool
-	f bool
+    s string
+    t bool
+    f bool
 )
 
 func foo() {
     xi := 1
-	var xf64 float32 := 1.2
-	xs := "test"
-	xt, xf := true, false
+    var xf64 float32 := 1.2
+    xs := "test"
+    xt, xf := true, false
     fmt.Printf("%T", xf64)
 
-	// fmt.Printf("%T", 変数) → その変数の型を出力
+    // fmt.Printf("%T", 変数) → その変数の型を出力
 }
 
 func main() {
@@ -110,7 +110,7 @@ func main() {
 ```
 func foo() {
     xi := 1
-	xi := 1   // error
+    xi := 1   // error
 }
 ```
 
@@ -129,7 +129,7 @@ func foo() {
 ```
 func foo() {
     xi := 1
-	xi = 1
+    xi = 1
 }
 ```
 

@@ -48,16 +48,16 @@ package main
 import "fmt"
 
 func init() {
-	fmt.Println("init!")
+    fmt.Println("init!")
 }
 
 func bazz() {
-	fmt.Println("Hello Bazz!")
+    fmt.Println("Hello Bazz!")
 }
 
 func main() {
-	bazz()
-	fmt.Println("Hello World!")
+    bazz()
+    fmt.Println("Hello World!")
 }
 ```
 
@@ -68,17 +68,17 @@ func main() {
 ```
 /*
 func init() {
-	fmt.Println("init!")
+    fmt.Println("init!")
 }
 */
 
 func bazz() {
-	fmt.Println("Hello Bazz!")
+    fmt.Println("Hello Bazz!")
 }
 
 func main() {
-	// bazz()
-	fmt.Println("Hello World!")
+    // bazz()
+    fmt.Println("Hello World!")
 }
 ```
 - `//` または `/* */`
@@ -98,14 +98,14 @@ func main() {
 package main
 
 import (
-	"fmt"
-	"os/user"
-	"time"
+    "fmt"
+    "os/user"
+    "time"
 )
 
 func main() {
-	fmt.Println("Hello world!", time.Now())
-	fmt.Println(user.Current())
+    fmt.Println("Hello world!", time.Now())
+    fmt.Println(user.Current())
 }
 ```
 
